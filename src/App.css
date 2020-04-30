@@ -6,6 +6,16 @@
 .h-100v{
   max-height: 100vh;
 }
+.font-primary{
+  font-family: 'Montserrat', sans-serif;
+}
+.display-5{
+  font-size: 3.5rem !important;
+  opacity: 1;
+}
+.hero-box{
+  background-color:rgba(128, 128, 128, .6);
+}
 .homecontainer{
   height: 100vh;
   background-image:url("./images/hero.jpeg");
@@ -13,4 +23,7 @@
   text-align: center;
   padding-top: 100px;
   
+}
+.zindex{
+  z-index: 5 !important;
 }

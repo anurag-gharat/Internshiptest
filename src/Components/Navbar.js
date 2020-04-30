@@ -23,7 +23,7 @@ export default class Navbar extends Component {
 
   render() {
         return (
-        <nav className="navbar navbar-expand-sm navbar-inverse fixed-top bg-white shadow-lg">
+        <nav className="navbar navbar-expand-sm navbar-inverse  bg-white shadow-lg">
           <div className="container-fluid">
             <div className="navbar-header">
 
