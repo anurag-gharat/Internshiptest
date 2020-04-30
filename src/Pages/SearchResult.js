@@ -16,7 +16,7 @@ export default class SearchResult extends Component {
 
         return (
             <div>
-                <div className="container mx-auto p-4 mt-5 bg-white shadow-lg">
+                <div className="container mx-auto p-4 my-5 bg-white shadow-lg">
                     <div className="text-center">
                         <h1 className="font-weight-bold">
                             How can you learn externally
@@ -32,7 +32,7 @@ export default class SearchResult extends Component {
                         So how about an interactive and interesting (with a little bit of fun sprinkled) live video sessions by industry experts who will focus 30% on academics to lay your basic foundations strong and remaining 70% to practically train you with the latest up to date industry trends. Sounds compelling enough? 
                         </p>
                     </div>
-                    <div>
+                    <div className="mt-5">
                     <h3>How can you prep up, till we are set to launch!</h3>
                         <p className="font-weight-lighter">
                         Now, for those of you who wanna be a little ahead of the curve and utilise this short period of time prior to our kick off, this is what we suggest for you so that you can have a clear picture on what your target field will be at Edunomics.
@@ -40,7 +40,32 @@ export default class SearchResult extends Component {
                         Hope that will be beneficial and any remaining doubts you can contact us, our professional team aspires to help those in need!
                         </p>
                     </div>
+                    <div className="w-100 mx-auto mt-5 border-top-1">
+                        <h3>
+                             If you want to be part of our mission
+                            we will contact you soon.
+                         </h3>
+                    <form className="form-horizontal mx-auto mt-3">
+                    <div className="form-group row">
+                        <div className="col-sm-6 form-group">
+                            <label for="email">Email Id:</label>
+                            <input className="form-control" type="email"></input>
+                        </div>
+                        <div className="col-sm-6 form-group">
+                            <label for="email">Phone Number:</label>
+                            <input className="form-control" type="number"></input>
+                        </div>
+                    </div>
+                 
+                    </form>
+                    <div className="text-center">
+                        <button className="btn btn-outline-success">Submit</button>
+                    </div>
+                    </div>
+
+
                 </div>
+
             </div>
         )
     }

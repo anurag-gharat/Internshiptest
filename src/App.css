@@ -2,6 +2,14 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden !important;
+}
+.ui-autocomplete{
+  list-style: none;
+  cursor: pointer;
+  width: 500px !important;
+  background-color: rgba(255, 255, 255, 0.592) !important;
 }
 .h-100v{
   max-height: 100vh;
@@ -14,7 +22,7 @@
   opacity: 1;
 }
 .hero-box{
-  background-color:rgba(128, 128, 128, .6);
+  background-color:rgba(212, 212, 212, 0.8);
 }
 .homecontainer{
   height: 100vh;
@@ -24,6 +32,7 @@
   padding-top: 100px;
   
 }
-.zindex{
-  z-index: 5 !important;
+.ui-helper-hidden-accessible{
+  display: none !important;
+  
 }
