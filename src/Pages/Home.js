@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import {Link } from 'react-router-dom'
 
 import Form from '../Components/Form'
+import Details from '../Components/Details'
 export default function Home() {
 
     return (
@@ -19,11 +20,9 @@ export default function Home() {
                         <Form />
                     </div>
                 </div>
-                
-
-       
+                    
             </div>
-        
+        <Details />
         </div>
     )
 }
