@@ -1,13 +1,14 @@
 import React from 'react'
 import { FaFacebook, FaLinkedinIn, FaInstagram, FaTwitter } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-
+import {Img} from '../images/logo.png'
 export default function Footer() {
 
 
 
     return (
             <footer className="bg-dark m-0 pt-5">
+
                 <div className="d-flex w-100 justify-content-center">
                     <FaFacebook className="socialmedia mx-3" />
                     <FaLinkedinIn className="socialmedia mx-3"  />
